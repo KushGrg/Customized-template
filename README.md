@@ -1,2 +1,2 @@
-# ams
-Asset Management System 
+Mary UI Customized Template
+
