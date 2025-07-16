@@ -15,7 +15,7 @@
                 <x-menu-item title="Dashboard" icon="o-home" link="/dashboard" />
 
                 @if ($user->hasVerifiedEmail())
-                    {{-- Dashboard (requires verified email) --}}
+                    {{-- Dashboard (requires verified email that) --}}
 
                     {{-- Admin only menu items (requires verified email) --}}
                     @role('superadmin')
